@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.8.11/tailwind.min.css"
+    integrity="sha512-KO1h5ynYuqsFuEicc7DmOQc+S9m2xiCKYlC3zcZCSEw0RGDsxcMnppRaMZnb0DdzTDPaW22ID/gAGCZ9i+RT/w=="
+    crossorigin="anonymous" />
+  <link rel="shortcut icon" href="../public/img/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="../public/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../public/css/font-awesome.css">
+  <link rel="stylesheet" href="../public/css/blue.css">
+  <link rel="stylesheet" href="../public/css/login.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+  <title>Iniciar Sesión</title>
+</head>
+
+<body>
+  <form method="post" id="frmAcceso">
+    
+    <div class="background" id="background">
+      <img style="width:350px; margin-left: 5px;" src="../public/img/Logo.png" alt="">
+    </div><br>
+    <div class="bgVerde rounded p-5 text-center shadow-md">
+      <h5 class="text-md" style="color: #fff;">Ingrese usuario y contraseña para acceder</h5>
+      <div class="my-4 text-left">
+        <input type="text" class="border block w-full p-1 rounded" id="logina" name="logina"
+          placeholder="Ingrese su usuario" required />
+      </div>
+      <div class="my-4 text-left">
+        <input type="password" class="border block w-full p-1 rounded" id="clavea" name="clavea"
+          placeholder="Ingrese su Contraseña" required />
+      </div>
+      <input class="bgCafe text-white py-2 mt-2 inline-block w-full rounded" type="submit" value="Acceder">
+    </div>
+  </form>
+  <script src="../public/js/jquery-3.1.1.min.js"></script>
+  <script src="../public/js/bootstrap.min.js"></script>
+  <script src="../public/js/bootbox.min.js"></script>
+  <script type="text/javascript" src="scripts/login.js"></script>
+</body>
+
+</html>

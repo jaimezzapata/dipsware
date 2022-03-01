@@ -1,0 +1,102 @@
+:root {
+  --verde: #b6bb18ff;
+  --cafe: #773611ff;
+  --blanco: #fff;
+  --cafeClaro: rgb(119, 54, 17, 0.8);
+  --verdeClaro: rgb(182,187, 24, 0.8);
+}
+body, html{
+  font-family: 'Roboto', sans-serif;
+}
+
+.bgVerde {
+  background-color: var(--verde);
+}
+
+.bgCafe {
+  background-color: var(--cafe);
+}
+
+.bgCafeClaro{
+  background-color: var(--cafeClaro);
+}
+
+.bgBlanco{
+    background-color: var(--blanco);
+}
+
+.colorVerde{
+    color: var(--verde);
+}
+
+.colorCafe{
+    color: var(--cafe);
+}
+
+
+.colorBlanco{
+    color: var(--blanco);
+}
+
+.logoImg{
+    width: 100px;
+}
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.redes, .manual{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.redesLink{
+  color: #fff;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.redesLink:hover{
+  color: var(--cafe);
+  padding: 20px;
+  font-size: 30px;
+  transition: 1.2s;
+}
+
+.linkManual{
+  color: #fff;
+  font-size: 55px;
+}
+
+.linkManual:hover{
+  color: var(--cafe);
+  font-size: 55px;
+  transition: 1.2s;
+}
+
+.cajaFound{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/404.png);
+  background-position: center center;
+  background-size: cover;
+}
+
+cajaFound h1{
+  text-align: center;
+}
+
+.videos{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+
